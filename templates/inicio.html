@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>colombia</title>
+</head>
+<style>
+	body {
+		background: linear-gradient(to right,#FFFF00,#0000FF,#FF0000);
+	}
+</style>
+<body>
+	
+	<marquee>viva colombia</marquee>
+
+{%if equipo == "colombia"%}
+
+<h1>jugadores de futbol de colombia</h1>
+<ol>
+	<li>radamel falcao</li>
+	<li>tino asprilla</li>
+	<li>pibe valderrama</li>
+	<li>james rodriguez</li>
+</ol>
+{%elif quipo != "colombia"%}
+
+
+<h1>jugadores de futbol portugal</h1>
+<ol>
+	<li>cristiano ronaldo</li>
+	<li>rafa leao</li>
+	<li>diogo jota</li>
+	<li>nuno mendes</li>
+</ol>
+
+{% endif %}
+
+</body>
+</html>
